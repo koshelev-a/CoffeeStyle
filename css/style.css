@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.img__coffeeStyle {
+    background-image: url(/img/ImgeCoffeeStyleLogo.png);
+}
+
+.header_block_link {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+.header__link {
+    padding: 0 15px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
