@@ -23,6 +23,7 @@ header {
 }
 
 .header__link {
+    margin: auto 0;
     padding: 0 15px;
     font-family: 'Karla';
     font-style: normal;
@@ -33,7 +34,26 @@ header {
 }
 
 .a_color {
+    margin: auto;
     color: #1D1F2E;
+}
+
+.number_of_purchases {
+    text-align: center;
+    letter-spacing: 0;
+    padding: 0 6px;
+    margin-left: 8px;
+    background: #1D1F2E;
+    border-radius: 9px;
+    color: #fff;
+}
+
+.icon__card {
+    width: 16px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url(/img/IconCard.png);
+    background-size: cover;
 }
 
 .img_on_link {
@@ -47,21 +67,16 @@ header {
 }
 
 .bttn__card {
+    display: flex;
     margin-left: 20px;
-    width: 92px;
     padding-bottom: 4px;
     text-align: center;
     border-bottom: 2px solid rgba(162, 95, 75, 0.3);
 }
 
-
-
-
-
-
-
-
-
+/*/////////////////////////////////////////
+//// Стиль для домашней страницы ////
+///////////////////////////////////////*/
 
 .home__page {
    background-color: #050827;
@@ -115,12 +130,9 @@ header {
     height: 18px;
 }
 
-
-
-
-
-
-
+/*/////////////////////////////////////////
+//// Стиль для страницы с информацией ////
+///////////////////////////////////////*/
 
 .info__header {
     margin: 123px auto 0;
@@ -153,19 +165,33 @@ header {
     text-align: center;
 }
 
+/*/////////////////////////////////////////
+///// Стиль для заголовков страниц ///////
+///////////////////////////////////////*/
 
-
-
-
-
-
-
-
-
-
-
-.mugs {
+.header_for_page {
+    display: flex;
+    justify-content: center;
     padding-bottom: 100px;
+}
+
+.line__left {
+    margin: auto 0;
+    margin-right: 15px;
+    width: 30px;
+    height: 1px;
+    background: #ECECED;
+}
+
+.line__right {
+    margin: auto 0;
+    margin-left: 15px;
+    width: 30px;
+    height: 1px;
+    background: #ECECED;
+}
+
+.header_page_text {
     font-size: 12px;
     line-height: 18px;
     text-align: center;
@@ -174,13 +200,19 @@ header {
     color: #1D1F2E;
 }
 
+/*/////////////////////////////////////////
+/////// Стиль для избранных чашек ////////
+///////////////////////////////////////*/
+
 .favorit__mugs {
     display: flex;
-    width: 960px;
+    justify-content: center;
     height: 660px;
+    margin: auto 0;
+    margin-bottom: 115px;
 }
 
-.box_img_mugs {
+.box_fav_mugs {
     width: 460px;
     height: 540px;
     padding: 0 10px;
@@ -236,15 +268,35 @@ header {
     color: rgba(29, 31, 46, 0.4);
 }
 
+/*/////////////////////////////////////////
+/////// Стиль карточек продукции /////////
+///////////////////////////////////////*/
 
-
-
-
-
-
-
-
+.products__page {
+    display: block;
+    margin: auto;
+    width: 960px;
+    height: 1700px;
+}
 
 .more__products {
+    display: flex;
+}
 
+.box__card {
+    margin: 0 8.5px;
+    width: 300px;
+    height: 380px;
+}
+
+
+
+
+
+.background__page {
+    width: 100%;
+    height: 340px;
+    margin-bottom: 100px;
+    background-image: url(/img/BackgroundPage.png);
+    background-size: cover;
 }
