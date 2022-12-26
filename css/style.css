@@ -59,7 +59,7 @@ header {
     width: 16px;
     height: 20px;
     margin-right: 10px;
-    background-image: url(./img/IconCard.png);
+    background-image: url(img/IconCard.png);
     background-size: cover;
 }
 
@@ -89,7 +89,7 @@ header {
 }
 
 .home_page_img {
-    background-image: url(./img/ImageHomePage.png);
+    background-image: url(img/ImageHomePage.png);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -226,14 +226,14 @@ header {
 .pink__mug {
     width: 100%;
     height: 100%;
-    background-image: url(./img/PinkMugs.png);
+    background-image: url(img/PinkMugs.png);
     background-size: cover;
 }
 
 .gold__mug {
     width: 100%;
     height: 100%;
-    background-image: url(./img/GoldMugs.png);
+    background-image: url(img/GoldMugs.png);
     background-size: cover;
 }
 
@@ -374,7 +374,7 @@ header {
 .background__page {
     width: 100%;
     height: 340px;
-    background-image: url(./img/BackgroundPage.png);
+    background-image: url(img/BackgroundPage.png);
     background-size: cover;
 }
 
