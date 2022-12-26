@@ -36,6 +36,11 @@ header {
 .a_color {
     margin: auto;
     color: #1D1F2E;
+    transition: 0.2s;
+}
+
+.a_color:hover {
+    color: #acacac;
 }
 
 .number_of_purchases {
@@ -57,10 +62,8 @@ header {
 }
 
 .img_on_link {
-    width: 120px;
-    height: 20px;
+    height: 24px;
     margin-right: 82px;
-    background-image: url(/img/ImgeCoffeeStyleLogo.png);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -75,7 +78,7 @@ header {
 }
 
 /*/////////////////////////////////////////
-//// Стиль для домашней страницы ////
+/////////// Домашняя страницы ////////////
 ///////////////////////////////////////*/
 
 .home__page {
@@ -131,7 +134,7 @@ header {
 }
 
 /*/////////////////////////////////////////
-//// Стиль для страницы с информацией ////
+///////// Страница с информацией /////////
 ///////////////////////////////////////*/
 
 .info__header {
@@ -166,13 +169,13 @@ header {
 }
 
 /*/////////////////////////////////////////
-///// Стиль для заголовков страниц ///////
+/////////// Заголовки страниц ////////////
 ///////////////////////////////////////*/
 
 .header_for_page {
     display: flex;
     justify-content: center;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .line__left {
@@ -209,7 +212,7 @@ header {
     justify-content: center;
     height: 660px;
     margin: auto 0;
-    margin-bottom: 115px;
+    margin-bottom: 15px;
 }
 
 .box_fav_mugs {
@@ -269,14 +272,13 @@ header {
 }
 
 /*/////////////////////////////////////////
-/////// Стиль карточек продукции /////////
+/////////// Карточки продукции ///////////
 ///////////////////////////////////////*/
 
 .products__page {
     display: block;
     margin: auto;
     width: 960px;
-    height: 1700px;
 }
 
 .more__products {
@@ -284,19 +286,294 @@ header {
 }
 
 .box__card {
-    margin: 0 8.5px;
+    margin: 0 8.5px 65px;
+
+}
+
+.img__card {
     width: 300px;
     height: 380px;
 }
 
+/*/////////////////////////////////////////
+////////// Спец. предложения /////////////
+///////////////////////////////////////*/
 
+.promotion__box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
 
+.promotion_img_box {
+    display: flex;
+    margin-right: 40px;
+}
 
+.img_conf_max {
+    width: 280px;
+    height: 280px;
+    padding: 0 10px 0 0;
+}
+
+.img_box_little {
+    width: 160px;
+    height: 130px;
+}
+
+.img_conf_min {
+    width: 100%;
+    height: 100%;
+}
+
+.promotion__text {
+    margin: 5px 0 auto 40px;
+}
+
+.premium__offer {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+.get__our{
+    padding: 15px 0;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+}
+
+.your__life {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    padding-bottom: 25px;
+}
+
+.start__shopping {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: #1D1F2E;
+    width: 155px;
+    padding: 9px;
+}
+
+/*/////////////////////////////////////////
+///////////////// Фото ///////////////////
+///////////////////////////////////////*/
 
 .background__page {
     width: 100%;
     height: 340px;
-    margin-bottom: 100px;
     background-image: url(/img/BackgroundPage.png);
     background-size: cover;
+}
+
+/*/////////////////////////////////////////
+/////////// Lifestyle stories ////////////
+///////////////////////////////////////*/
+
+.stories__page {
+    margin-bottom: 200px;
+}
+
+.contact_content_block {
+     display: flex;
+     justify-content: center; 
+}
+
+.stories__box {
+    width: 300px;
+    padding: 0 10px;
+}
+
+.stories_img_block {
+    padding-bottom: 30px;
+}
+
+.img__300 {
+    width: 300px;
+    height: 300px;
+}
+
+.stories__headline {
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+    margin-bottom: 10px;
+}
+
+.stories__subtitle {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.stories__data {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+/*/////////////////////////////////////////
+/////////////// Контакты /////////////////
+///////////////////////////////////////*/
+
+.contact__page {
+    background: #1D1F2E;
+}
+
+.contact__line {
+    background: rgba(210, 210, 213, 0.1);
+}
+
+.contact_headline_page{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.contact__headline {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact__subtitle {
+    padding: 15px 0 25px;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact__connection {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 85px;
+}
+
+.social__network {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border: 1px solid #2F303E;
+    display: inline-block;
+    margin: auto 0;
+    padding: 18px 74px;
+    margin-right: 10px;
+}
+
+.bttn_subscribe {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+
+    background: #FFFFFF;
+    display: inline-block;
+    margin: auto 0;
+    padding: 18px 25px;
+}
+
+/*/////////////////////////////////////////
+//////////////// Подвал //////////////////
+///////////////////////////////////////*/
+
+.footer__page {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 60px;
+}
+
+.footer__brand {
+    width: 260px;
+    padding-right: 55px;
+}
+
+.footer__logo {
+    height: 24px;
+}
+
+.footer__subtitle{
+    padding: 20px 0 80px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.footer__law {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+
+.footer_nav_block {
+    margin-right: 80px;
+}
+
+.footer__headline {
+    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+.footer_nav_link {
+    list-style-type: none;
+}
+
+.footer_a_link {
+    color: rgba(29, 31, 46, 0.7);
+    transition: 0.2s;
+}
+
+.footer_a_link:hover {
+    color: rgba(29, 31, 46, 1);
+}
+
+.footer_nav_li {
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 22px;  
+}
+
+.footer__help {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+.footer__email {
+    padding: 15px 0 55px;
+    font-size: 23px;
+    line-height: 36px;
+    color: #1D1F2E;
+}
+
+.footer__webflow {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
 }
