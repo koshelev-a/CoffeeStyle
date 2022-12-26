@@ -393,7 +393,7 @@ header {
 
 .stories__box {
     width: 300px;
-    padding: 0 10px;
+    margin: 0 10px;
 }
 
 .stories_img_block {
