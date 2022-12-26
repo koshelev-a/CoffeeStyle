@@ -59,7 +59,7 @@ header {
     width: 16px;
     height: 20px;
     margin-right: 10px;
-    background-image: url(/img/IconCard.png);
+    background-image: url(../img/IconCard.png);
     background-size: cover;
 }
 
